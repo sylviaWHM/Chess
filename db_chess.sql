@@ -31,10 +31,10 @@ CREATE TABLE `t_rank`  (
 -- ----------------------------
 -- Records of t_rank
 -- ----------------------------
-INSERT INTO `t_rank` VALUES ('123', '12', '失败', '03月05日');
-INSERT INTO `t_rank` VALUES ('12', '123', '胜利', '03月05日');
-INSERT INTO `t_rank` VALUES ('12', '1212', '胜利', '03月05日');
-INSERT INTO `t_rank` VALUES ('1212', '12', '失败', '03月05日');
+INSERT INTO `t_rank` VALUES ('123', '12', 'fail', '03.05');
+INSERT INTO `t_rank` VALUES ('12', '123', 'victory', '03.05');
+INSERT INTO `t_rank` VALUES ('12', '1212', 'victory', '03.05');
+INSERT INTO `t_rank` VALUES ('1212', '12', 'fail', '03.05');
 
 -- ----------------------------
 -- Table structure for t_user
