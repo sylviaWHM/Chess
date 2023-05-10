@@ -80,7 +80,7 @@ public class DbUtil {
 			ArrayList<Rank> ranks = getAllRank(name);
 			rankSum = ranks.size();
 			for (Rank rank:ranks){
-				if (rank.result.equals("胜利")){
+				if (rank.result.equals("victory")){
 					winSum++;
 				}
 			}
